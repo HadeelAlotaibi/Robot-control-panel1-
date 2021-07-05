@@ -1,0 +1,98 @@
+h1 {
+	background-color: #F3F3F3;
+	text-align: center;
+	font-family: Tahoma, 'Helvetica';
+	border:solid 3px;
+	
+}
+img{
+	border: solid 2px;
+	position: absolute;
+width: 300px;
+height: 250px;
+left: -450px;
+top: -130px;
+}
+body{
+    
+    background-color: darkgrey;
+}
+
+.BackGround{
+     position:sticky;
+     top: 100%;
+     left: 100%;
+     transform: translate(-0%, -0%);
+     width: 100%;
+     max-width: 100px;
+     padding: 10px;
+    border-radius: 30px;
+    padding-left: 0px;
+
+}
+
+.btn-left{
+position: absolute;
+width: 75px;
+height: 38px;
+left: -370px;
+top: -120px;
+    text-align: center;
+}
+.btn-right{
+position: absolute;
+width: 75px;
+height: 38px; 
+left: -150px;
+top: -120px;
+text-align: center;
+
+  
+}
+
+.btn-center{
+    
+position: absolute;
+width: 75px;
+height: 38px;
+left: -260px;
+top: -120px;
+border-radius:30px;
+text-align: center;
+    
+}
+.btn-top{
+    
+    
+position: absolute;
+width: 75px;
+height: 38px;
+left: -275px;
+top: -50px;
+}
+.btn-bottom{
+    
+position: absolute;
+width: 75px;
+height: 38px;
+left: -279px;
+top: -190px;
+}
+
+input{
+    
+  box-shadow:inset 0px 1px 3px 0px black;
+	background:linear-gradient(to bottom, darkgrey 5%, #6c7c7c 100%);
+	background-color:darkgrey;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
